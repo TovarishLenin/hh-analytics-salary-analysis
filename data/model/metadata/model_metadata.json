@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-06-01T15:42:22",
+  "trained_at": "2026-09-11T13:02:19",
   "algorithm": "RandomForestRegressor",
   "source_csv": "data/processed/vacancies_for_model_final.csv",
   "features": [
@@ -67,9 +67,9 @@
   "min_monthly_salary": 20000,
   "max_monthly_salary": 800000,
   "random_state": 42,
-  "n_estimators": 500,
-  "max_depth": null,
-  "min_samples_leaf": 4,
+  "n_estimators": 300,
+  "max_depth": 10,
+  "min_samples_leaf": 8,
   "model_from_path": "data/model/models/model_from.joblib",
   "model_to_path": "data/model/models/model_to.joblib"
 }

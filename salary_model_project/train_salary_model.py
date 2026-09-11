@@ -55,9 +55,9 @@ def build_model():
             (
                 "model",
                 RandomForestRegressor(
-                    n_estimators=500,
-                    max_depth=None,
-                    min_samples_leaf=4,
+                    n_estimators=300,
+                    max_depth=10,
+                    min_samples_leaf=8,
                     random_state=RANDOM_STATE,
                     n_jobs=-1,
                 ),
@@ -177,9 +177,9 @@ def main():
         "min_monthly_salary": MIN_MONTHLY_SALARY,
         "max_monthly_salary": MAX_MONTHLY_SALARY,
         "random_state": RANDOM_STATE,
-        "n_estimators": 500,
-        "max_depth": None,
-        "min_samples_leaf": 4,
+        "n_estimators": 300,
+        "max_depth": 10,
+        "min_samples_leaf": 8,
         "model_from_path": "data/model/models/model_from.joblib",
         "model_to_path": "data/model/models/model_to.joblib",
     }

@@ -1,5 +1,5 @@
 ﻿target,dataset,rows,MAE,RMSE,R2
-salary_from,train,446,29296.12,41149.41,0.7331
-salary_from,test,113,42486.76,55573.32,0.4598
-salary_to,train,339,39877.05,57846.0,0.6622
-salary_to,test,85,57449.39,80419.85,0.3759
+salary_from,train,446,33834.08,47627.68,0.6425
+salary_from,test,113,43598.91,55345.66,0.4643
+salary_to,train,339,46238.34,65469.21,0.5673
+salary_to,test,85,57179.43,80142.18,0.3802
