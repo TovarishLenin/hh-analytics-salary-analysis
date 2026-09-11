@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*secret*
+*token*
+айди.txt
+**/айди.txt
+data/raw/
+data/interim/
+data/model/models/
+*.joblib
+*.docx
+*.pptx
+*.pdf
+~$*
